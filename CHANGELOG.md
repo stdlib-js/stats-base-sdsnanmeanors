@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-07-27)
+
+<section class="features">
+
+### Features
+
+-   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`cc5caf6`](https://github.com/stdlib-js/stdlib/commit/cc5caf61e67f92737aad055a384dd2b41cf74ebf) - **feat:** add C ndarray API and refactor for `stats/base/sdsnanmeanors` [(#4727)](https://github.com/stdlib-js/stdlib/pull/4727) _(by Dhruv Arvind Singh, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`cfe3cd1`](https://github.com/stdlib-js/stdlib/commit/cfe3cd1e32866c97242a9da931c11b05e83a23d2) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`186f2e7`](https://github.com/stdlib-js/stdlib/commit/186f2e70a175b9f1fe77fd6b68a18de39fce7266) - **refactor:** update `stats/base/sdsnanmeanors` native addon from C++ to C [(#4459)](https://github.com/stdlib-js/stdlib/pull/4459) _(by Vivek Maurya)_
@@ -30,10 +41,12 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Dhruv Arvind Singh
+-   Gururaj Gurram
 -   Philipp Burckhardt
 -   Vivek Maurya
 

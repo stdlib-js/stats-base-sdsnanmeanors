@@ -1,9 +1,9 @@
-"use strict";var o=function(r,a){return function(){return a||r((a={exports:{}}).exports,a),a.exports}};var m=o(function(k,q){
-var j=require('@stdlib/number-float64-base-to-float32/dist');function N(r,a,u){var t,n,i,e,s;if(r<=0)return NaN;if(r===1||u===0)return a[0];for(u<0?n=(1-r)*u:n=0,t=0,e=0,s=0;s<r;s++)i=a[n],i===i&&(t+=i,e+=1),n+=u;return e===0?NaN:j(t/e)}q.exports=N
-});var c=o(function(w,l){
-var F=require('@stdlib/number-float64-base-to-float32/dist');function R(r,a,u,t){var n,i,e,s,v;if(r<=0)return NaN;if(r===1||u===0)return a[t];for(i=t,n=0,s=0,v=0;v<r;v++)e=a[i],e===e&&(n+=e,s+=1),i+=u;return s===0?NaN:F(n/s)}l.exports=R
-});var x=o(function(z,d){
-var T=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=m(),_=c();T(p,"ndarray",_);d.exports=p
-});var E=require("path").join,O=require('@stdlib/utils-try-require/dist'),b=require('@stdlib/assert-is-error/dist'),g=x(),f,y=O(E(__dirname,"./native.js"));b(y)?f=g:f=y;module.exports=f;
+"use strict";var v=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var o=v(function(w,d){
+var j=require('@stdlib/number-float64-base-to-float32/dist');function R(e,r,a,f){var s,t,n,i,u;if(e<=0)return NaN;if(e===1||a===0)return r[f];for(t=f,s=0,i=0,u=0;u<e;u++)n=r[t],n===n&&(s+=n,i+=1),t+=a;return i===0?NaN:j(s/i)}d.exports=R
+});var c=v(function(z,m){
+var _=require('@stdlib/strided-base-stride2offset/dist'),E=o();function F(e,r,a){return E(e,r,a,_(e,a))}m.exports=F
+});var l=v(function(A,y){
+var N=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=c(),O=o();N(p,"ndarray",O);y.exports=p
+});var T=require("path").join,b=require('@stdlib/utils-try-require/dist'),g=require('@stdlib/assert-is-error/dist'),h=l(),q,x=b(T(__dirname,"./native.js"));g(x)?q=h:q=x;module.exports=q;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
